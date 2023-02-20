@@ -1,0 +1,174 @@
+
+    body{
+        background-image: url(/1.jpg);
+        background-repeat: no-repeat;
+       background-size: cover;
+        
+    }
+    *{
+        font-family: 'Times New Roman', Times, serif;
+    }
+   
+    #sign{
+        text-align: center;
+        margin-left: -1%;
+        width: 85%;
+        height: 30%;
+        background-color: green;
+        color: white;
+        border: none;
+    }
+    #sign:hover{
+        background-color: red;
+        transition: 0.5s ;
+    }
+    #h1{
+        margin-bottom: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        color:white;
+        font-weight: 40px
+    }
+    input{
+        
+    border-width: 1px;
+        text-align: left;
+        padding: 15px;
+            width: 80%;
+        }
+        .container{
+            background-color: hsla(201, 100%, 6%, 0.4);
+            text-align: center;
+            color: black;
+            margin-top: 5%;
+            margin-left: 17%;
+            width: 400px;
+            height: 400px;
+            border-radius: 10px;
+        }
+        .main-container{
+            display: flex;
+            align-items: center;
+        }
+        .container2
+        {
+            color: white;
+            margin-left: 5%;
+        
+           width: 40%;
+        }
+        .container2 #p2{
+            color: orangered;
+        }
+        .container2 p{
+            font-weight: bold;
+            font-size: 40px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .container2 button{
+            padding: 6px 6px;
+            width: 30%;
+            color: white;
+            background-color: orangered;
+            border: 1px solid white;
+        }
+        a{
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        hr{
+            width: 80%;
+        }
+        #forget::after{
+            text-decoration:dashed;
+        }
+        #forget:hover{
+            
+            transition: 0.5s;
+            color: blue;
+        }
+        #submit{
+            width: 90%;
+            text-align: center;
+            background-color: rgb(226, 73, 21);
+            color: white;
+            border: none;
+        }
+        #submit:hover{
+             border: 1px solid white;
+        }
+        .fa{
+            text-decoration: none;
+            margin-right: 10px;
+            font-size: 30px;
+            color: white;
+        }
+        .fa:hover{
+            color: orangered;
+        }
+        hr{
+            color: white;
+            width: 100%;
+        }
+        .header{
+            background-image: url(/login.jpeg);
+            background-color: hsla(201, 100%, 6%, 0.4);
+            top:0;
+            left:0;
+            right:0;
+            background: no-repeat;
+            box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+            padding:2px;
+            display:-webkit-box;
+            display:-ms-flexbox;
+            display:flex;
+            align-items:center;
+            z-index:1000
+}
+.header .logo{
+    margin-right:auto;
+    font-size:28px;
+    text-transform:capitalize;
+    color:white;
+    text-decoration: none;
+    font-weight:bolder}
+    .header .navbar{
+        position:relative
+    }
+    .header .navbar #close-navbar{
+        position:absolute;
+        top:1.5rem;
+        right:2rem;
+        font-size:20px;
+        cursor:pointer;
+        color:#444;
+        display:none
+    }
+    .header .navbar #close-navbar:hover{
+        -webkit-transform:rotate(90deg);
+        transform:rotate(90deg)
+    }
+    .header .navbar a{
+        text-decoration: none;
+        margin-right:2rem;
+        color: white;
+        font-size:25px;
+        text-transform:capitalize;
+
+    }
+    .header .navbar a:hover
+    {
+        font-weight: bold;
+    }
+    .header .icons div{
+        cursor:pointer;
+        font-size:25px;
+        color:#444;
+        margin-left:1.5rem
+    }
+    .header .icons div:hover{
+        color:#0eb582
+    }
+    
+
+
